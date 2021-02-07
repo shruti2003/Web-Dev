@@ -1,0 +1,263 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  margin-top: 300px;
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 10px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: #A25E42; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  font-family: sans-serif;
+
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  background-color: white;
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #A25E42;
+}
+
+#blog {
+  top: 80px;
+  background-color:#A25E42; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #A25E42; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color:#A25E42 /* Light Black */
+}
+
+
+
+
+
+.slide{
+   height: 90vh;
+   background-color: #CB7B58;
+   box-sizing: border-box;
+   color: #E4C9C9;
+
+}
+
+
+.slide-1{
+   height: 100vh;
+   background-color: #CB7B58;
+   box-sizing: border-box;
+   color: #E4C9C9;
+
+}
+
+
+
+.slide-white-1{
+   height: 85vh;
+   background-color: white;
+   box-sizing: border-box;
+
+
+}
+
+.educated{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.slide-grey{
+   height: 80vh;
+   background-color: #dddddd;
+   box-sizing: border-box;
+   color: white;
+   margin-top: 0px;
+
+}
+
+.italisize{
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+   color: #CB7B58;
+   margin-top: -20px;
+
+}
+
+.italisize-1{
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+   color: white;
+   margin-top: -20px;
+
+}
+
+.header{
+  font-size: 80px;
+  text-align: center;
+font-family: 'Spartan', sans-serif;
+ color: #464c52;
+
+}
+.header-1{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color: #B26542;
+}
+
+
+.paragraph{
+  color: #464c52;
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+
+}
+
+.center {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  width: 55%;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid black; /* Green */
+  display: block;
+  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding-left: 35px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  font-family: 'Playfair Display', sans-serif;
+  width: 10%;
+  text-decoration: none;
+
+
+}
+
+.button-1 {
+  background-color: #dddddd;
+  color: black;
+  border: 2px solid black; /* Green */
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', sans-serif;
+  width: 15%;
+  text-decoration: none;
+
+
+}
+
+
+a:hover, a:active {
+  background-color: #CB7B58;
+  text-decoration: none;
+}
+
+
+.app{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.features{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -400px;
+}
+.lexi{
+  z-index: 1;
+  top: 3300px;
+  left: 80px;
+}
+.shruti{
+  z-index: 1;
+  top: 3400px;
+  left: 290px;
+
+}
+.lily{
+  z-index: 1;
+  top: 3309px;
+  left: 480px;
+}
+.uyen{
+  z-index: 1;
+  top: 3400px;
+  left: 680px;
+}
+
+.down{
+  position:absolute;
+  top: 3711px;
+  left: 560px;
+  width: 20%;
+
+}
+
+.c.carousel-inner .item a img {
+
+margin: auto;
+
+}
+.hinc{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color: #dddddd;
+}
+#member{
+  position: absolute;
+}
+
+
+.carousel-inner {
+background-color: #464c52;
+}
+
+.carousel-indicators{
+  margin-bottom: 10px;
+  color: white;
+}
+
+#carouselExampleIndicators{
+  height: 50%;
+}

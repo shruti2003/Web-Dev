@@ -1,0 +1,33 @@
+div{
+  position: fixed;
+}
+
+.one{
+  top: 20px;
+  left: 20px;
+background-color: white;
+width: 500px;
+z-index: 1;
+
+
+
+}
+.two{
+
+background-color: grey;
+top: 40px;
+left: 40px;
+width: 500px;
+
+
+}
+.three{
+
+background-color: black;
+top: 60px;
+left: 60px;
+width: 500px;
+
+
+
+}

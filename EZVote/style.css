@@ -1,0 +1,67 @@
+.center {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 55%;
+}
+/*center the h1 tags*/
+.center-1{
+text-align: center;
+margin-top: 70px;
+}
+.logo {
+  display: block;
+
+  width: 7%;
+  position: absolute;
+}
+
+.navbar-nav>li{
+  border-right: 1px solid white;
+}
+
+.resize{
+height: 90%;
+align-content: center;
+}
+
+.slide{
+   height: 100vh;
+   background-color: #CB7B58;
+   box-sizing: border-box;
+   color: #E4C9C9;
+
+}
+/*section 2 css */
+.slide-light{
+  height: 80vh;
+  background-color: #E4C9C9;
+  box-sizing: border-box;
+  color: #BB7356;
+}
+
+/*button on the home page*/
+.btn-group button {
+  background-color: orange;
+              border: 1px solid green;
+              width: 120px;
+              color: white;
+              font-size: 14px;
+              padding: 10px;
+              text-align: center;
+              text-decoration: none;
+              display: block;
+
+           }
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+}
